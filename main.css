@@ -91,3 +91,20 @@ scrollbar scrollbarbutton {
   height: 28px !important;
   border: none !important;
 }
+
+#urlbar {
+  height: 28px !important;
+  text-align: left !important;
+  border: 0px solid #2D2D2D !important;
+  padding: 4px 4px 4px 12px !important;
+  margin: 0px 6px 0px 2px !important;
+  box-shadow: none !important;
+  color: #6F788D !important;
+  font-family: "Roboto" !important;
+  font-size: 14px !important;
+  background-color: #FAFBFC !important;
+}
+
+#urlbar > toolbarbutton {
+  display: none !important;
+}

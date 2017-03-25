@@ -108,3 +108,70 @@ scrollbar scrollbarbutton {
 #urlbar > toolbarbutton {
   display: none !important;
 }
+
+@media (min-resolution: 1.1dppx) {
+  #urlbar-go-button,
+  #urlbar-reload-button,
+  #urlbar-stop-button {
+    list-style-image: url("chrome://browser/skin/reload-stop-go@2x.png");
+  }
+
+  #urlbar-go-button > .toolbarbutton-icon,
+  #urlbar-reload-button > .toolbarbutton-icon,
+  #urlbar-stop-button > .toolbarbutton-icon {
+    width: 11px;
+  }
+
+  #urlbar-go-button {
+    -moz-image-region: rect(0, 30px, 14px, 42px);
+  }
+
+  #urlbar-go-button:hover {
+    -moz-image-region: rect(14px, 52px, 42px, 42px);
+  }
+
+  #urlbar-go-button:hover:active {
+    -moz-image-region: rect(14px, 52px, 42px, 42px);
+  }
+
+  #urlbar-reload-button {
+    -moz-image-region: rect(0, 12px, 12px, 0);
+  }
+
+  #urlbar-reload-button:not([disabled]):hover {
+    -moz-image-region: rect(12px, 12px, 42px, 0);
+  }
+
+  #urlbar-reload-button:not([disabled]):hover:active {
+    -moz-image-region: rect(42px, 12px, 12px, 0);
+  }
+
+  #urlbar-stop-button {
+    -moz-image-region: rect(0, 42px, 12px, 12px);
+  }
+
+  #urlbar-stop-button:not([disabled]):hover {
+    -moz-image-region: rect(12px, 42px, 42px, 16px);
+  }
+
+  #urlbar-stop-button:hover:active {
+    -moz-image-region: rect(42px, 70px, 84px, 12px);
+  }
+}
+
+@media (min-resolution: 1.1dppx) {
+  #customization-titlebar-visibility-button {
+    list-style-image: url("chrome://browser/skin/customizableui/customize-titleBar-toggle@2x.png");
+    -moz-image-region: rect(0, 32px, 32px, 0);
+  }
+
+  #customization-titlebar-visibility-button[checked] {
+    -moz-image-region: rect(0, 42px, 20px, 20px);
+  }
+}
+
+@media (min-resolution: 1.25dppx) {
+  notification[value="translation"][state="translating"] .messageImage {
+    list-style-image: url(chrome://browser/skin/translating-16@2x.png);
+  }
+}

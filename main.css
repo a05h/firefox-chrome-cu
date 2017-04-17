@@ -49,6 +49,14 @@ tabbox > tabpanels {
   min-width: 34px !important;
 }
 
+.tabbrowser-tab[pinned] .tab-icon-image {
+  width: 34px !important;
+  min-width: 34px !important;
+  max-width: 34px !important;
+  margin-left: 14px !important;
+  padding: 10px !important;
+}
+
 tabs#tabbrowser-tabs * {
   max-height: 34px !important;
   min-height: 34px !important;
@@ -84,12 +92,38 @@ scrollbar scrollbarbutton {
   visibility: hidden !important;
 }
 
+scrollbar[orient="vertical"] {
+  min-width: 2px;
+  max-width: 2px;
+  padding: 0px !important;
+  -moz-margin-start: -2px;
+}
+
+scrollbar[orient="horizontal"] {
+  min-height: 2px;
+  max-height: 2px;
+  margin-top: -2px;
+}
+
 #searchbar .searchbar-textbox {
   text-align: center !important;
   margin: 5px 7px 1px 8px !important;
   padding: 4px !important;
   height: 28px !important;
   border: none !important;
+}
+
+#searchbar .searchbar-engine-image {
+  margin: -20px 0px 0px 2px !important;
+  width: 0 !important;
+}
+
+#searchbar .search-go-button {
+  visibility: hidden !important;
+}
+
+#searchbar .searchbar-dropmarker-image {
+  display: none !important;
 }
 
 #urlbar {
@@ -107,6 +141,10 @@ scrollbar scrollbarbutton {
 
 #urlbar > toolbarbutton {
   display: none !important;
+}
+
+.private-browsing-indicator, * #private-browsing-indicator-titlebar{
+  visibility: collapse !important;
 }
 
 @media (min-resolution: 1.1dppx) {

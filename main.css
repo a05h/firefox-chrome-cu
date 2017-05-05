@@ -36,30 +36,30 @@ tabbox > tabpanels {
 
 .tabbrowser-tab .tab-text {
   font-family: "Roboto" !important;
-  font-size: 12px !important;
+  font-size: 8px !important;
   text-align: center !important;
   padding-left: 15px !important;
 }
 
 .tabbrowser-tab[pinned]{
-  margin: 0px 0px 0px 14px !important;
-  padding: 0px 0px 0px 14px !important;
-  width: 34px !important;
-  max-width: 34px !important;
-  min-width: 34px !important;
+  margin: 0px 0px 0px 8px !important;
+  padding: 0px 0px 0px 8px !important;
+  width: 21px !important;
+  max-width: 21px !important;
+  min-width: 21px !important;
 }
 
 .tabbrowser-tab[pinned] .tab-icon-image {
-  width: 34px !important;
-  min-width: 34px !important;
-  max-width: 34px !important;
-  margin-left: 14px !important;
+  width: 21px !important;
+  min-width: 21px !important;
+  max-width: 21px !important;
+  margin-left: 8px !important;
   padding: 10px !important;
 }
 
 tabs#tabbrowser-tabs * {
-  max-height: 34px !important;
-  min-height: 34px !important;
+  max-height: 21px !important;
+  min-height: 21px !important;
   margin: 0 auto !important;
   border: none !important;
   border-radius: none !important;
@@ -75,7 +75,7 @@ tabs#tabbrowser-tabs * {
   border: none !important;
   margin: -1 0 0 0 !important;
   padding: 2px 0px !important;
-  height: 40px !important;
+  height: 32px !important;
   box-shadow: none !important;
   color: #E1E1E1 !important;
 }
@@ -127,7 +127,7 @@ scrollbar[orient="horizontal"] {
 }
 
 #urlbar {
-  height: 28px !important;
+  height: 12px !important;
   text-align: left !important;
   border: 0px solid #2D2D2D !important;
   padding: 4px 4px 4px 12px !important;
@@ -135,7 +135,7 @@ scrollbar[orient="horizontal"] {
   box-shadow: none !important;
   color: #6F788D !important;
   font-family: "Roboto" !important;
-  font-size: 14px !important;
+  font-size: 8px !important;
   background-color: #FAFBFC !important;
 }
 
@@ -161,39 +161,39 @@ scrollbar[orient="horizontal"] {
   }
 
   #urlbar-go-button {
-    -moz-image-region: rect(0, 30px, 14px, 42px);
+    -moz-image-region: rect(0, 22px, 14px, 36px);
   }
 
   #urlbar-go-button:hover {
-    -moz-image-region: rect(14px, 52px, 42px, 42px);
+    -moz-image-region: rect(14px, 38px, 21px, 21px);
   }
 
   #urlbar-go-button:hover:active {
-    -moz-image-region: rect(14px, 52px, 42px, 42px);
+    -moz-image-region: rect(11px, 38px, 21px, 21px);
   }
 
   #urlbar-reload-button {
-    -moz-image-region: rect(0, 12px, 12px, 0);
+    -moz-image-region: rect(0, 8px, 8px, 0);
   }
 
   #urlbar-reload-button:not([disabled]):hover {
-    -moz-image-region: rect(12px, 12px, 42px, 0);
+    -moz-image-region: rect(8px, 8px, 21px, 0);
   }
 
   #urlbar-reload-button:not([disabled]):hover:active {
-    -moz-image-region: rect(42px, 12px, 12px, 0);
+    -moz-image-region: rect(21px, 8px, 8px, 0);
   }
 
   #urlbar-stop-button {
-    -moz-image-region: rect(0, 42px, 12px, 12px);
+    -moz-image-region: rect(0, 21px, 8px, 8px);
   }
 
   #urlbar-stop-button:not([disabled]):hover {
-    -moz-image-region: rect(12px, 42px, 42px, 16px);
+    -moz-image-region: rect(8px, 21px, 21px, 10px);
   }
 
   #urlbar-stop-button:hover:active {
-    -moz-image-region: rect(42px, 70px, 84px, 12px);
+    -moz-image-region: rect(21px, 18px, 21px, 8px);
   }
 }
 

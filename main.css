@@ -29,9 +29,13 @@ tabbox > tabpanels {
   -moz-appearance: none !important;
 }
 
-.tabbrowser-tab .tab-close-button .toolbarbutton-icon {
+.tabbrowser-tab .toolbarbutton-icon {
   display: block !important;
   width: 20px !important;
+}
+
+.tab-close-button {
+  display: none !important;
 }
 
 .tabbrowser-tab .tab-text {
@@ -44,17 +48,17 @@ tabbox > tabpanels {
 .tabbrowser-tab[pinned]{
   margin: 0px 0px 0px 8px !important;
   padding: 0px 0px 0px 8px !important;
-  width: 21px !important;
-  max-width: 21px !important;
-  min-width: 21px !important;
+  width: 16px !important;
+  max-width: 16px !important;
+  min-width: 16px !important;
 }
 
 .tabbrowser-tab[pinned] .tab-icon-image {
-  width: 21px !important;
-  min-width: 21px !important;
-  max-width: 21px !important;
+  width: 16px !important;
+  min-width: 16px !important;
+  max-width: 16px !important;
   margin-left: 8px !important;
-  padding: 10px !important;
+  padding: 8px !important;
 }
 
 tabs#tabbrowser-tabs * {
@@ -75,7 +79,7 @@ tabs#tabbrowser-tabs * {
   border: none !important;
   margin: -1 0 0 0 !important;
   padding: 2px 0px !important;
-  height: 32px !important;
+  height: 18px !important;
   box-shadow: none !important;
   color: #E1E1E1 !important;
 }
@@ -122,12 +126,14 @@ scrollbar[orient="horizontal"] {
   visibility: hidden !important;
 }
 
+/*
 #searchbar .searchbar-dropmarker-image {
   display: none !important;
 }
+*/
 
 #urlbar {
-  height: 12px !important;
+  height: 8px !important;
   text-align: left !important;
   border: 0px solid #2D2D2D !important;
   padding: 4px 4px 4px 12px !important;
@@ -139,9 +145,11 @@ scrollbar[orient="horizontal"] {
   background-color: #FAFBFC !important;
 }
 
+/*
 #urlbar > toolbarbutton {
   display: none !important;
 }
+*/
 
 .private-browsing-indicator, * #private-browsing-indicator-titlebar{
   visibility: collapse !important;
@@ -200,11 +208,11 @@ scrollbar[orient="horizontal"] {
 @media (min-resolution: 1.1dppx) {
   #customization-titlebar-visibility-button {
     list-style-image: url("chrome://browser/skin/customizableui/customize-titleBar-toggle@2x.png");
-    -moz-image-region: rect(0, 32px, 32px, 0);
+    -moz-image-region: rect(0, 16px, 16px, 0);
   }
 
   #customization-titlebar-visibility-button[checked] {
-    -moz-image-region: rect(0, 42px, 20px, 20px);
+    -moz-image-region: rect(0, 21px, 14px, 14px);
   }
 }
 

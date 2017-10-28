@@ -76,6 +76,7 @@ tabs#tabbrowser-tabs * {
 #TabsToolbar {
   margin-left: -15px !important;
   margin-right: -5px !important;
+  -moz-box-ordinal-group: 1000 !important;
 }
 
 #tab-view-deck #tab-view { 
@@ -90,6 +91,10 @@ tabs#tabbrowser-tabs * {
   height: 18px !important;
   box-shadow: none !important;
   color: #E1E1E1 !important;
+}
+
+#navigator-toolbox toolbar:not(#nav-bar):not(#toolbar-menubar) {
+  -moz-box-ordinal-group: 15;
 }
 
 scrollbar {

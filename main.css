@@ -145,6 +145,15 @@ scrollbar[orient="horizontal"] {
 }
 */
 
+#browser-bottombox {
+  border: none !important;
+  background:  transparent !important;
+}
+
+#browser-border-end, #browser-border-start {
+  display: none !important;
+}
+
 #urlbar, #nav-bar-customization-target, #urlbar-container {
   height: 8px !important;
   width: 100% !important;
@@ -170,11 +179,9 @@ scrollbar[orient="horizontal"] {
   display: none !important;
 }
 
-/*
 #urlbar > toolbarbutton {
   display: none !important;
 }
-*/
 
 .private-browsing-indicator, * #private-browsing-indicator-titlebar{
   visibility: collapse !important;

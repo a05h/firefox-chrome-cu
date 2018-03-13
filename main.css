@@ -46,21 +46,21 @@ tabbox > tabpanels {
   font-family: "Roboto" !important;
   font-size: 8px !important;
   text-align: center !important;
-  padding-left: 15px !important;
+  padding-left: 4px !important;
 }
 
 .tabbrowser-tab[pinned]{
   margin: 0px 0px 0px 8px !important;
   padding: 0px 0px 0px 8px !important;
   width: 16px !important;
-  max-width: 16px !important;
-  min-width: 16px !important;
+  max-width: 12px !important;
+  min-width: 12px !important;
 }
 
 .tabbrowser-tab[pinned] .tab-icon-image {
   width: 16px !important;
-  min-width: 16px !important;
-  max-width: 16px !important;
+  min-width: 12px !important;
+  max-width: 12px !important;
   margin-left: 8px !important;
   padding: 8px !important;
 }
@@ -80,7 +80,7 @@ tabs#tabbrowser-tabs * {
 }
 
 #tab-view-deck #tab-view { 
-  margin: 24px 12px 12px 12px !important;
+  margin: 18px 12px 10px 12px !important;
 }
 
 #nav-bar {
@@ -88,7 +88,7 @@ tabs#tabbrowser-tabs * {
   border: none !important;
   margin: -1 0 0 0 !important;
   padding: 2px 0px !important;
-  height: 18px !important;
+  height: 13px !important;
   box-shadow: none !important;
   color: #E1E1E1 !important;
 }
@@ -139,11 +139,9 @@ scrollbar[orient="horizontal"] {
   visibility: hidden !important;
 }
 
-/*
 #searchbar .searchbar-dropmarker-image {
   display: none !important;
 }
-*/
 
 #browser-bottombox {
   border: none !important;

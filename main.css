@@ -42,6 +42,10 @@ tabbox > tabpanels {
   display: none !important;
 }
 
+.tab-drop-indicator { 
+  margin-bottom: 0 !important;
+}
+
 .tabbrowser-tab .tab-text {
   font-family: "Roboto" !important;
   font-size: 8px !important;
@@ -79,8 +83,23 @@ tabs#tabbrowser-tabs * {
   -moz-box-ordinal-group: 1000 !important;
 }
 
+.tabs-newtab-button { 
+  background: transparent !important; 
+  width: 18px !important; 
+  display: block !important; 
+  margin: 0 6px 0 0 !important; 
+}
+
+.tabs-newtab-button::before { 
+  content: "+" !important; 
+}
+
 #tab-view-deck #tab-view { 
   margin: 18px 12px 10px 12px !important;
+}
+
+#alltabs-button { 
+  margin-left: -10px !important;
 }
 
 #nav-bar {
@@ -91,6 +110,7 @@ tabs#tabbrowser-tabs * {
   height: 13px !important;
   box-shadow: none !important;
   color: #E1E1E1 !important;
+  position: fixed !important;
 }
 
 #navigator-toolbox toolbar:not(#nav-bar):not(#toolbar-menubar) {
